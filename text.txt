@@ -1,0 +1,54 @@
+class Test begin
+
+    int x = 10;
+    float f = 2.5;
+    double d = 3.14;
+    bool b = true;
+    char c = "c";
+
+    void show() begin
+        int x;
+        print("Int:", a);
+        print("Float:", f);
+        print("Double:", d);
+        print("Char:", c);
+        print("Bool:", b);
+        print("String:", s);
+    end
+
+    void math_ops() begin
+
+        int x = 2*3+100;
+        int y = 3;
+
+        print("Sum:", sum);
+        print("Diff:", diff);
+        print("Prod:", prod);
+        print("Quot:", quot);
+    end
+end
+
+void main() begin
+    Test t;
+    int k=100+10*2;
+
+    if (a > 0) begin
+        print("a is positive");
+    end
+    else if (a == 0) begin
+        print("a is zero");
+    end
+    else begin
+        print("a is negative");
+    end
+
+    int i = 0;
+    while (i < 3) begin
+        print("While loop iteration:", i);
+        i++;
+    end
+
+    for (int j = 0; j < 3; j++) begin
+        print("For loop iteration:", j);
+    end
+end
